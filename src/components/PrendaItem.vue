@@ -1,0 +1,1 @@
+<!--Atómico): Muestra el detalle de una prenda. -->

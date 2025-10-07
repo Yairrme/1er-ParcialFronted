@@ -1,11 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import CatalogoManager from './components/CatalogoManager.vue';
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="min-h-screen bg-gray-100 p-6">
+    <h1 class="text-3xl font-bold mb-6">Gestor de Prendas </h1>
+    <CatalogoManager />
+  </div>
 </template>
-
-<style scoped></style>
